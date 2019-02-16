@@ -61,4 +61,4 @@
 	use platform;
 	source ../sql/platform.sql
 	//这里需要添加密钥认证
-       sudo docker daemon -H unix:///var/run/docker.sock -H 0.0.0.0:4243
+sudo docker daemon -H unix:///var/run/docker.sock -H 0.0.0.0:4243
