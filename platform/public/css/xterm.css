@@ -1,0 +1,43 @@
+body {
+    font-family: helvetica, sans-serif, arial;
+    font-size: 1em;
+    color: #111;
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.scrollable {
+    overflow-y: scroll;
+    padding-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#terminal-container {
+    width: 628px;
+    height: 660px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+#terminal-container .terminal {
+    background-color: #111;
+    color: #fafafa;
+    padding: 2px;
+}
+
+#terminal-container .terminal:focus .terminal-cursor {
+    background-color: #fafafa;
+}

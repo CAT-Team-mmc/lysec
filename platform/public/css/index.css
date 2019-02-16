@@ -1,0 +1,52 @@
+nav {
+    background-color: #ffffff !important;
+}
+
+nav .brand-logo {
+    padding: 0 0 0 27px;
+}
+
+#splash-blue .platform-show {
+    border-radius: 3px;
+    z-index: 3;
+    width: 700px;
+    position: relative;
+}
+
+#splash-blue {
+    background-color: #272D4E;
+}
+
+#splash, #splash-blue {
+    height: 500px;
+}
+
+#popular-courses {
+    padding: 100px 0 0;
+}
+
+.card .card-content .card-title {
+    line-height: 1.5;
+}
+
+.card .card-action {
+    padding: 5px;
+}
+
+.card .card-content {
+    padding: 10px;
+}
+
+footer {
+    background-color: #272D4E;
+    min-height: 150px;
+    color: #fff;
+}
+
+footer.page-footer {
+    margin-top: 0;
+}
+
+.fa-caret-down {
+    color: black;
+}

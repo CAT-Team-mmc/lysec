@@ -1,0 +1,26 @@
+body {
+    padding-top: 200px;
+    background: url(../img/texture-blue-fonchik-simple-dark-colors-glow-background.jpg) no-repeat;
+}
+
+.login-form {
+    width: 390px;
+}
+
+.login-title {
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.login-userinput {
+    margin-bottom: 10px;
+}
+
+.login-button {
+    margin-top: 10px;
+}
+
+.login-passwordinput {
+    margin-bottom: 10px;
+}

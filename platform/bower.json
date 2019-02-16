@@ -1,0 +1,34 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "homepage": "http://dbqf.xyz",
+  "authors": [
+    "Dubuqingfeng"
+  ],
+  "description": "An attacking & defense platform.",
+  "keywords": [
+    "platform",
+    "theme"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "pages",
+    "index.html",
+    "/js"
+  ],
+  "main": [
+    "dist/css/login.css"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "font-awesome": "fontawesome#^4.6.3",
+    "materialize": "latest",
+    "xterm.js": "~1.0.0",
+    "wangEditor": "^2.1.18"
+  }
+}
