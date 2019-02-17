@@ -23,9 +23,9 @@
 因为此项目是关于docker的项目，所以在部署的时候注意docker api未授权访问。其他安全问题后续持续跟进
 
 ## 项目组介绍 ##
-###项目简介
+### 项目简介
 此项目由CatTeam安全团队的开发组设计完成。主要为想学习安全的朋友提供一个简单直接的安全攻防在线实战平台。
-###项目组成员
+### 项目组成员
 - mmc
 项目负责人
 - 独步清风
@@ -36,15 +36,14 @@
 前端开发
 - vv
 UI
-**感谢项目开发人员的付出**
-##其它问题##
+## 其它问题 ##
 + 问题反馈
 + 加入我们
 + 合作开发
-##问题反馈##
+## 问题反馈 ##
 + QQ: 2022137639
 + 微信：wx_1109
-##友情赞助##
+## 友情赞助 ##
 ![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E5%BE%AE%E4%BF%A1.jpg)
 ![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg)
 
