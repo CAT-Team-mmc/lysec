@@ -1,8 +1,8 @@
 # www.lysec.org
 # 效果预览
-![img](https://github.com/CAT-Team-mmc/lysec/blob/master/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA1.gif)
-![img](https://github.com/CAT-Team-mmc/lysec/blob/master/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA.gif)
-![img](https://github.com/CAT-Team-mmc/lysec/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E5%B1%95%E7%A4%BA%E5%9B%BE.gif)
+![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%95%88%E6%9E%9C%E5%9B%BE%E5%B1%95%E7%A4%BA%E5%9B%BE.gif)
+![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA.gif)
+![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA1.gif)
 ## 技术选型 ##
 
 后端部分主要采用PHP，以性能为主，采用[Phalcon](https://phalconphp.com/zh/)框架，利用[composer](https://getcomposer.org/)管理依赖。
@@ -45,6 +45,6 @@ UI
 + QQ: 2022137639
 + 微信：wx_1109
 ##友情赞助##
-![img]()
-![]()
+![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E5%BE%AE%E4%BF%A1.jpg)
+![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg)
 
