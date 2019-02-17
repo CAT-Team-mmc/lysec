@@ -1,36 +1,38 @@
 # lysec
+#æ•ˆæœé¢„è§ˆ
+[img](https://github.com/CAT-Team-mmc/lysec/blob/master/%E6%95%88%E6%9E%9C%E5%B1%95%E7%A4%BA.gif)
 
-## ¼¼ÊõÑ¡ĞÍ ##
+## æŠ€æœ¯é€‰å‹ ##
 
-ºó¶Ë²¿·ÖÖ÷Òª²ÉÓÃPHP£¬ÒÔĞÔÄÜÎªÖ÷£¬²ÉÓÃ[Phalcon](https://phalconphp.com/zh/)¿ò¼Ü£¬ÀûÓÃ[composer](https://getcomposer.org/)¹ÜÀíÒÀÀµ¡£
+åç«¯éƒ¨åˆ†ä¸»è¦é‡‡ç”¨PHPï¼Œä»¥æ€§èƒ½ä¸ºä¸»ï¼Œé‡‡ç”¨[Phalcon](https://phalconphp.com/zh/)æ¡†æ¶ï¼Œåˆ©ç”¨[composer](https://getcomposer.org/)ç®¡ç†ä¾èµ–ã€‚
 
-Ç°¶Ë²¿·ÖÏÈ²ÉÓÃbower¹ÜÀíÒÀÀµ¡£
+å‰ç«¯éƒ¨åˆ†å…ˆé‡‡ç”¨bowerç®¡ç†ä¾èµ–ã€‚
 
-## ¿ò¼Ü´î½¨ ##
+## æ¡†æ¶æ­å»º ##
 
 ```
-Ò» ·şÎñÆ÷°æ±¾
+ä¸€ æœåŠ¡å™¨ç‰ˆæœ¬
    ubuntu16.04
-¶ş »ù±¾Ä£¿é
-   2.1£º mysql+PHP7+apache2»òÕßnginx °²×° //±ØĞë
-   apache2 webÄ¿Â¼ /var/www/html/platform
-   nginx webÄ¿Â¼ /usr/share/nginx/html/platform
-   ÆäËüµÄ¶¼ÊÇ³£¹æ°²×°×ÔĞĞ¹È¸è¡£
-   2.3£º etcd °²×° //±ØĞë
+äºŒ åŸºæœ¬æ¨¡å—
+   2.1ï¼š mysql+PHP7+apache2æˆ–è€…nginx å®‰è£… //å¿…é¡»
+   apache2 webç›®å½• /var/www/html/platform
+   nginx webç›®å½• /usr/share/nginx/html/platform
+   å…¶å®ƒçš„éƒ½æ˜¯å¸¸è§„å®‰è£…è‡ªè¡Œè°·æ­Œã€‚
+   2.3ï¼š etcd å®‰è£… //å¿…é¡»
 	$ mkdir -p $GOPATH/src/github.com/coreos
 	$ cd !$
 	$ git clone https://github.com/coreos/etcd.git
 	$ cd etcd
 	$ ./build
 	$ ./bin/etcd
-	²Î¿¼ https://blog.csdn.net/skh2015java/article/details/80714661
-   2.4£º docker°²×° //±ØĞë
-      ¸üĞÂAPT°üË÷Òı£ºsudo apt-get update
-¡¡¡¡¡¡°²×°docker£ºsudo apt-get install docker-engine
-¡¡¡¡¡¡¿ªÆôdockerºóÌ¨½ø³Ì£ºsudo service docker start
-¡¡¡¡¡¡Ğ£ÑédockerÊÇ·ñ°²×°³É¹¦£ºsudo docker run hello-world
-      ²Î¿¼ https://www.cnblogs.com/lighten/p/6034984.html
-   2.5£º phalcon°²×° //±ØĞë
+	å‚è€ƒ https://blog.csdn.net/skh2015java/article/details/80714661
+   2.4ï¼š dockerå®‰è£… //å¿…é¡»
+      æ›´æ–°APTåŒ…ç´¢å¼•ï¼šsudo apt-get update
+ã€€ã€€ã€€å®‰è£…dockerï¼šsudo apt-get install docker-engine
+ã€€ã€€ã€€å¼€å¯dockeråå°è¿›ç¨‹ï¼šsudo service docker start
+ã€€ã€€ã€€æ ¡éªŒdockeræ˜¯å¦å®‰è£…æˆåŠŸï¼šsudo docker run hello-world
+      å‚è€ƒ https://www.cnblogs.com/lighten/p/6034984.html
+   2.5ï¼š phalconå®‰è£… //å¿…é¡»
         sudo git clone --depth=1 git://github.com/phalcon/cphalcon.git
 	sudo apt-get install make
 	cd cphalcon/build/
@@ -38,17 +40,17 @@
         cd /etc/php/7.0/apache2/conf.d
         vi 30-phalcon.ini
         extension=phalcon.so
-	²Î¿¼ https://blog.csdn.net/StimmerLove/article/details/82657190
-   2.6£º HAProxy°²×°
-         ²Î¿¼ https://blog.csdn.net/qq_32911237/article/details/79545909
-   2.7£º RabbitMQ °²×°
-         ²Î¿¼ https://blog.csdn.net/rickey17/article/details/72756766/
-   2.8£º bowerºÍcomposer°ü¹ÜÀíÆ÷°²×° //±ØĞë
-	//°²×°composer
+	å‚è€ƒ https://blog.csdn.net/StimmerLove/article/details/82657190
+   2.6ï¼š HAProxyå®‰è£…
+         å‚è€ƒ https://blog.csdn.net/qq_32911237/article/details/79545909
+   2.7ï¼š RabbitMQ å®‰è£…
+         å‚è€ƒ https://blog.csdn.net/rickey17/article/details/72756766/
+   2.8ï¼š bowerå’ŒcomposeråŒ…ç®¡ç†å™¨å®‰è£… //å¿…é¡»
+	//å®‰è£…composer
 	curl -sS https://getcomposer.org/installer | php
 	sudo mv composer.phar /usr/local/bin/composer
-Èı ÏîÄ¿°²×°
-	//Èç¹ûÃ»È¨ÏŞÉèÖÃ755
+ä¸‰ é¡¹ç›®å®‰è£…
+	//å¦‚æœæ²¡æƒé™è®¾ç½®755
 	git clone https://github.com/CAT-Team-mmc/lysec.git
 	cd /usr/share/nginx/html/platform
 	composer install
@@ -60,5 +62,5 @@
 	CREATE DATABASE platform;
 	use platform;
 	source ../sql/platform.sql
-	//ÕâÀïĞèÒªÌí¼ÓÃÜÔ¿ÈÏÖ¤
+	//è¿™é‡Œéœ€è¦æ·»åŠ å¯†é’¥è®¤è¯
        sudo docker daemon -H unix:///var/run/docker.sock -H 0.0.0.0:4243
