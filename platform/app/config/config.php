@@ -14,7 +14,7 @@ return new \Phalcon\Config([
         'adapter' => 'Mysql',
         'host' => $isLocal?'127.0.0.1':'127.0.0.1',
         'username' => 'root',
-        'password' => 'lysec&CatTeam&mmc&201417!q',
+        'password' => 'lysec',
         'dbname' => 'platform',
         'charset' => 'utf8',
     ],
