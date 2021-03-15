@@ -43,7 +43,4 @@ UI
 ## 问题反馈 ##
 + QQ: 2022137639
 + 微信：wx_1109
-## 友情赞助 ##
-![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E5%BE%AE%E4%BF%A1.jpg)
-![img](https://github.com/CAT-Team-mmc/lysec/blob/master/image/%E6%94%AF%E4%BB%98%E5%AE%9D.jpg)
 
